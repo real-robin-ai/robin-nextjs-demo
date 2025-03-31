@@ -40,7 +40,7 @@ export default async function Orders() {
                   <span>{order.event.name}</span>
                 </div>
               </TableCell>
-              <TableCell className="text-right">US{order.amount.usd}</TableCell>
+              <TableCell className="text-right">₹{(parseFloat(order.amount.usd.replace('$', '')) * 83).toFixed(2)}</TableCell>
             </TableRow>
           ))}
         </TableBody>
