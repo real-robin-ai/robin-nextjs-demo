@@ -43,7 +43,7 @@ export default async function Order({ params }: { params: { id: string } }) {
           <div className="flex flex-wrap gap-x-10 gap-y-4 py-1.5">
             <span className="flex items-center gap-3 text-base/6 text-zinc-950 sm:text-sm/6 dark:text-white">
               <BanknotesIcon className="size-4 shrink-0 fill-zinc-400 dark:fill-zinc-500" />
-              <span>US{order.amount.usd}</span>
+              <span>₹{(parseFloat(order.amount.usd.replace('$', '')) * 83).toFixed(2)}</span>
             </span>
             <span className="flex items-center gap-3 text-base/6 text-zinc-950 sm:text-sm/6 dark:text-white">
               <CreditCardIcon className="size-4 shrink-0 fill-zinc-400 dark:fill-zinc-500" />
@@ -81,15 +81,15 @@ export default async function Order({ params }: { params: { id: string } }) {
             </Link>
           </DescriptionDetails>
           <DescriptionTerm>Amount</DescriptionTerm>
-          <DescriptionDetails>US{order.amount.usd}</DescriptionDetails>
+          <DescriptionDetails>₹{(parseFloat(order.amount.usd.replace('$', '')) * 83).toFixed(2)}</DescriptionDetails>
           <DescriptionTerm>Amount after exchange rate</DescriptionTerm>
           <DescriptionDetails>
-            US{order.amount.usd} &rarr; CA{order.amount.cad}
+            US{order.amount.usd} &rarr; ₹{(parseFloat(order.amount.usd.replace('$', '')) * 83).toFixed(2)}
           </DescriptionDetails>
           <DescriptionTerm>Fee</DescriptionTerm>
-          <DescriptionDetails>CA{order.amount.fee}</DescriptionDetails>
+          <DescriptionDetails>₹{(parseFloat(order.amount.fee.replace('$', '')) * 83).toFixed(2)}</DescriptionDetails>
           <DescriptionTerm>Net</DescriptionTerm>
-          <DescriptionDetails>CA{order.amount.net}</DescriptionDetails>
+          <DescriptionDetails>₹{(parseFloat(order.amount.net.replace('$', '')) * 83).toFixed(2)}</DescriptionDetails>
         </DescriptionList>
       </div>
       <div className="mt-12">
