@@ -40,12 +40,12 @@ export default async function Events() {
         </div>
         <Button>Create event</Button>
       </div>
-      <ul className="mt-10">
+      <ul className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
         {events.map((event, index) => (
           <li key={event.id}>
-            <Divider soft={index > 0} />
+            <Divider soft={index > 0} className="md:hidden" />
             <div className="flex items-center justify-between">
-              <div key={event.id} className="flex gap-6 py-6">
+              <div key={event.id} className="flex gap-6 py-6 md:py-0">
                 <div className="w-32 shrink-0">
                   <Link href={event.url} aria-hidden="true">
                     <img className="aspect-3/2 rounded-lg shadow-sm" src={event.imgUrl} alt="" />
