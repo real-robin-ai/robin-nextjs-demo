@@ -8,8 +8,8 @@ import { ApplicationLayout } from './application-layout'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Catalyst',
-    default: 'Catalyst',
+    template: '%s - Robin Demo',
+    default: 'Robin Demo',
   },
   description: '',
 }
