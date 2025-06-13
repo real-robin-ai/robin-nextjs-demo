@@ -2,7 +2,6 @@ import { Stat } from '@/app/stat'
 import { Avatar } from '@/components/avatar'
 import { Heading, Subheading } from '@/components/heading'
 import { Select } from '@/components/select'
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/table'
 import { getRecentOrders } from '@/data'
 
 export default async function Home() {
@@ -29,33 +28,41 @@ export default async function Home() {
         <Stat title="Pageviews" value="823,067" change="+21.2%" />
       </div>
       <Subheading className="mt-14">Recent orders</Subheading>
-      <Table className="mt-4 [--gutter:--spacing(6)] lg:[--gutter:--spacing(10)]">
-        <TableHead>
-          <TableRow>
-            <TableHeader>Order number</TableHeader>
-            <TableHeader>Purchase date</TableHeader>
-            <TableHeader>Customer</TableHeader>
-            <TableHeader>Event</TableHeader>
-            <TableHeader className="text-right">Amount</TableHeader>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {orders.map((order) => (
-            <TableRow key={order.id} href={order.url} title={`Order #${order.id}`}>
-              <TableCell>{order.id}</TableCell>
-              <TableCell className="text-zinc-500">{order.date}</TableCell>
-              <TableCell>{order.customer.name}</TableCell>
-              <TableCell>
-                <div className="flex items-center gap-2">
-                  <Avatar src={order.event.thumbUrl} className="size-6" />
-                  <span>{order.event.name}</span>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {orders.map((order) => (
+          <a
+            key={order.id}
+            href={order.url}
+            className="relative flex flex-col gap-4 rounded-lg border border-zinc-950/10 bg-white p-6 hover:bg-zinc-950/[2.5%] dark:border-white/10 dark:bg-zinc-900 dark:hover:bg-white/[2.5%] focus:outline-2 focus:-outline-offset-2 focus:outline-blue-500"
+            aria-label={`Order #${order.id}`}
+          >
+            <div className="flex items-center justify-between">
+              <div className="text-sm font-medium text-zinc-950 dark:text-white">
+                Order #{order.id}
+              </div>
+              <div className="text-sm font-medium text-right text-zinc-950 dark:text-white">
+                US{order.amount.usd}
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-3">
+              <Avatar src={order.event.thumbUrl} className="size-10" />
+              <div className="flex-1 min-w-0">
+                <div className="font-medium text-zinc-950 dark:text-white truncate">
+                  {order.event.name}
                 </div>
-              </TableCell>
-              <TableCell className="text-right">US{order.amount.usd}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
+                <div className="text-sm text-zinc-500 dark:text-zinc-400 truncate">
+                  {order.customer.name}
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-sm text-zinc-500 dark:text-zinc-400">
+              {order.date}
+            </div>
+          </a>
+        ))}
+      </div>
     </>
   )
 }
