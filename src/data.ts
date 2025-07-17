@@ -798,6 +798,12 @@ export async function getEvents() {
   ]
 }
 
+export async function getUniquePeopleCount() {
+  const orders = await getOrders()
+  const uniqueCustomers = new Set(orders.map(order => order.customer.email))
+  return uniqueCustomers.size
+}
+
 export function getCountries() {
   return [
     {
