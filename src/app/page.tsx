@@ -51,7 +51,7 @@ export default async function Home() {
                   <span>{order.event.name}</span>
                 </div>
               </TableCell>
-              <TableCell className="text-right">US{order.amount.usd}</TableCell>
+              <TableCell className="text-right">{order.amount.xaf}</TableCell>
             </TableRow>
           ))}
         </TableBody>
