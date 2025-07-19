@@ -76,9 +76,9 @@ export default function Settings() {
           <Text>The currency that your organization will be collecting.</Text>
         </div>
         <div>
-          <Select aria-label="Currency" name="currency" defaultValue="cad">
+          <Select aria-label="Currency" name="currency" defaultValue="xaf">
             <option value="cad">CAD - Canadian Dollar</option>
-            <option value="usd">USD - United States Dollar</option>
+            <option value="xaf">XAF - Central African CFA Franc</option>
           </Select>
         </div>
       </section>
