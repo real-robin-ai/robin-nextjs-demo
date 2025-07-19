@@ -43,7 +43,7 @@ export default async function Order({ params }: { params: { id: string } }) {
           <div className="flex flex-wrap gap-x-10 gap-y-4 py-1.5">
             <span className="flex items-center gap-3 text-base/6 text-zinc-950 sm:text-sm/6 dark:text-white">
               <BanknotesIcon className="size-4 shrink-0 fill-zinc-400 dark:fill-zinc-500" />
-              <span>US{order.amount.usd}</span>
+              <span>{order.amount.xaf}</span>
             </span>
             <span className="flex items-center gap-3 text-base/6 text-zinc-950 sm:text-sm/6 dark:text-white">
               <CreditCardIcon className="size-4 shrink-0 fill-zinc-400 dark:fill-zinc-500" />
@@ -60,7 +60,7 @@ export default async function Order({ params }: { params: { id: string } }) {
             </span>
           </div>
           <div className="flex gap-4">
-            <RefundOrder outline amount={order.amount.usd}>
+            <RefundOrder outline amount={order.amount.xaf}>
               Refund
             </RefundOrder>
             <Button>Resend Invoice</Button>
@@ -81,10 +81,10 @@ export default async function Order({ params }: { params: { id: string } }) {
             </Link>
           </DescriptionDetails>
           <DescriptionTerm>Amount</DescriptionTerm>
-          <DescriptionDetails>US{order.amount.usd}</DescriptionDetails>
+          <DescriptionDetails>{order.amount.xaf}</DescriptionDetails>
           <DescriptionTerm>Amount after exchange rate</DescriptionTerm>
           <DescriptionDetails>
-            US{order.amount.usd} &rarr; CA{order.amount.cad}
+            {order.amount.xaf} &rarr; CA{order.amount.cad}
           </DescriptionDetails>
           <DescriptionTerm>Fee</DescriptionTerm>
           <DescriptionDetails>CA{order.amount.fee}</DescriptionDetails>
