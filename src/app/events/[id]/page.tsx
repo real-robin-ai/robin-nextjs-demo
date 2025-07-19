@@ -78,7 +78,7 @@ export default async function Event({ params }: { params: { id: string } }) {
               <TableCell>{order.id}</TableCell>
               <TableCell className="text-zinc-500">{order.date}</TableCell>
               <TableCell>{order.customer.name}</TableCell>
-              <TableCell className="text-right">US{order.amount.usd}</TableCell>
+              <TableCell className="text-right">{order.amount.xaf}</TableCell>
             </TableRow>
           ))}
         </TableBody>
