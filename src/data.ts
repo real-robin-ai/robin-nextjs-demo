@@ -15,6 +15,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -42,6 +43,7 @@ export async function getOrders() {
       amount: {
         usd: '$299.00',
         cad: '$409.13',
+        inr: '₹24,817.00',
         fee: '$12.27',
         net: '$396.86',
       },
@@ -69,6 +71,7 @@ export async function getOrders() {
       amount: {
         usd: '$150.00',
         cad: '$205.25',
+        inr: '₹12,450.00',
         fee: '$6.15',
         net: '$199.10',
       },
@@ -96,6 +99,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -123,6 +127,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -150,6 +155,7 @@ export async function getOrders() {
       amount: {
         usd: '$299.00',
         cad: '$409.13',
+        inr: '₹24,817.00',
         fee: '$12.27',
         net: '$396.86',
       },
@@ -177,6 +183,7 @@ export async function getOrders() {
       amount: {
         usd: '$150.00',
         cad: '$205.25',
+        inr: '₹12,450.00',
         fee: '$6.15',
         net: '$199.10',
       },
@@ -204,6 +211,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -231,6 +239,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -258,6 +267,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -285,6 +295,7 @@ export async function getOrders() {
       amount: {
         usd: '$299.00',
         cad: '$409.13',
+        inr: '₹24,817.00',
         fee: '$12.27',
         net: '$396.86',
       },
@@ -312,6 +323,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -339,6 +351,7 @@ export async function getOrders() {
       amount: {
         usd: '$150.00',
         cad: '$205.25',
+        inr: '₹12,450.00',
         fee: '$6.15',
         net: '$199.10',
       },
@@ -366,6 +379,7 @@ export async function getOrders() {
       amount: {
         usd: '$299.00',
         cad: '$409.13',
+        inr: '₹24,817.00',
         fee: '$12.27',
         net: '$396.86',
       },
@@ -393,6 +407,7 @@ export async function getOrders() {
       amount: {
         usd: '$150.00',
         cad: '$205.25',
+        inr: '₹12,450.00',
         fee: '$6.15',
         net: '$199.10',
       },
@@ -420,6 +435,7 @@ export async function getOrders() {
       amount: {
         usd: '$150.00',
         cad: '$205.25',
+        inr: '₹12,450.00',
         fee: '$6.15',
         net: '$199.10',
       },
@@ -447,6 +463,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -474,6 +491,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -501,6 +519,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -528,6 +547,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -555,6 +575,7 @@ export async function getOrders() {
       amount: {
         usd: '$299.00',
         cad: '$409.13',
+        inr: '₹24,817.00',
         fee: '$12.27',
         net: '$396.86',
       },
@@ -582,6 +603,7 @@ export async function getOrders() {
       amount: {
         usd: '$80.00',
         cad: '$109.47',
+        inr: '₹6,640.00',
         fee: '$3.28',
         net: '$106.19',
       },
@@ -609,6 +631,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -636,6 +659,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -663,6 +687,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
@@ -690,6 +715,7 @@ export async function getOrders() {
       amount: {
         usd: '$114.99',
         cad: '$157.34',
+        inr: '₹9,544.17',
         fee: '$4.72',
         net: '$152.62',
       },
