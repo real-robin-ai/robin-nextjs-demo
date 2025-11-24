@@ -9,7 +9,7 @@ export function Stat({ title, value, change }: { title: string; value: string; c
       <div className="mt-3 text-3xl/8 font-semibold sm:text-2xl/8">{value}</div>
       <div className="mt-3 text-sm/6 sm:text-xs/6">
         <Badge color={change.startsWith('+') ? 'lime' : 'pink'}>{change}</Badge>{' '}
-        <span className="text-zinc-500">from last week</span>
+        <span className="text-zinc-500">par rapport à la semaine dernière</span>
       </div>
     </div>
   )
