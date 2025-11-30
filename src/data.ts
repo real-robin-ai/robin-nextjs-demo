@@ -34,6 +34,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: 'VIP customer',
     },
     {
       id: 3001,
@@ -61,6 +62,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/us.svg',
       },
       event: await getEvent('1001'),
+      notes: 'Express shipping requested',
     },
     {
       id: 3002,
@@ -88,6 +90,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1002'),
+      notes: '',
     },
     {
       id: 3003,
@@ -115,6 +118,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: 'Gift order',
     },
     {
       id: 3004,
@@ -142,6 +146,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3005,
@@ -169,6 +174,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/us.svg',
       },
       event: await getEvent('1001'),
+      notes: 'Priority seating',
     },
     {
       id: 3006,
@@ -196,6 +202,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1002'),
+      notes: '',
     },
     {
       id: 3007,
@@ -223,6 +230,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: '',
     },
     {
       id: 3008,
@@ -250,6 +258,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: 'Early bird discount',
     },
     {
       id: 3009,
@@ -277,6 +286,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3010,
@@ -304,6 +314,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1001'),
+      notes: '',
     },
     {
       id: 3011,
@@ -331,6 +342,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/us.svg',
       },
       event: await getEvent('1000'),
+      notes: '',
     },
     {
       id: 3012,
@@ -358,6 +370,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1002'),
+      notes: '',
     },
     {
       id: 3013,
@@ -385,6 +398,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1001'),
+      notes: '',
     },
     {
       id: 3014,
@@ -412,6 +426,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/us.svg',
       },
       event: await getEvent('1002'),
+      notes: '',
     },
     {
       id: 3015,
@@ -439,6 +454,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1002'),
+      notes: '',
     },
     {
       id: 3016,
@@ -466,6 +482,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: '',
     },
     {
       id: 3017,
@@ -493,6 +510,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: '',
     },
     {
       id: 3018,
@@ -520,6 +538,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3019,
@@ -547,6 +566,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3020,
@@ -574,6 +594,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1001'),
+      notes: '',
     },
     {
       id: 3021,
@@ -601,6 +622,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1000'),
+      notes: '',
     },
     {
       id: 3022,
@@ -628,6 +650,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3023,
@@ -655,6 +678,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3024,
@@ -682,6 +706,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/ca.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
     {
       id: 3025,
@@ -709,6 +734,7 @@ export async function getOrders() {
         countryFlagUrl: '/flags/us.svg',
       },
       event: await getEvent('1003'),
+      notes: '',
     },
   ]
 }
