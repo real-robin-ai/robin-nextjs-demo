@@ -37,6 +37,7 @@ export default async function Home() {
             <TableHeader>Customer</TableHeader>
             <TableHeader>Event</TableHeader>
             <TableHeader className="text-right">Amount</TableHeader>
+            <TableHeader>Notes</TableHeader>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -52,6 +53,7 @@ export default async function Home() {
                 </div>
               </TableCell>
               <TableCell className="text-right">US{order.amount.usd}</TableCell>
+              <TableCell className="text-zinc-500">{order.notes}</TableCell>
             </TableRow>
           ))}
         </TableBody>
