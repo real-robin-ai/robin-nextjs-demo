@@ -48,21 +48,21 @@ function AccountDropdownMenu({ anchor }: { anchor: 'top start' | 'bottom end' })
     <DropdownMenu className="min-w-64" anchor={anchor}>
       <DropdownItem href="#">
         <UserCircleIcon />
-        <DropdownLabel>My account</DropdownLabel>
+        <DropdownLabel>Mein Konto</DropdownLabel>
       </DropdownItem>
       <DropdownDivider />
       <DropdownItem href="#">
         <ShieldCheckIcon />
-        <DropdownLabel>Privacy policy</DropdownLabel>
+        <DropdownLabel>Datenschutzrichtlinie</DropdownLabel>
       </DropdownItem>
       <DropdownItem href="#">
         <LightBulbIcon />
-        <DropdownLabel>Share feedback</DropdownLabel>
+        <DropdownLabel>Feedback teilen</DropdownLabel>
       </DropdownItem>
       <DropdownDivider />
       <DropdownItem href="#">
         <ArrowRightStartOnRectangleIcon />
-        <DropdownLabel>Sign out</DropdownLabel>
+        <DropdownLabel>Abmelden</DropdownLabel>
       </DropdownItem>
     </DropdownMenu>
   )
@@ -104,7 +104,7 @@ export function ApplicationLayout({
               <DropdownMenu className="min-w-80 lg:min-w-64" anchor="bottom start">
                 <DropdownItem href="/settings">
                   <Cog8ToothIcon />
-                  <DropdownLabel>Settings</DropdownLabel>
+                  <DropdownLabel>Einstellungen</DropdownLabel>
                 </DropdownItem>
                 <DropdownDivider />
                 <DropdownItem href="#">
@@ -118,7 +118,7 @@ export function ApplicationLayout({
                 <DropdownDivider />
                 <DropdownItem href="#">
                   <PlusIcon />
-                  <DropdownLabel>New team&hellip;</DropdownLabel>
+                  <DropdownLabel>Neues Team&hellip;</DropdownLabel>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
@@ -128,24 +128,24 @@ export function ApplicationLayout({
             <SidebarSection>
               <SidebarItem href="/" current={pathname === '/'}>
                 <HomeIcon />
-                <SidebarLabel>Home</SidebarLabel>
+                <SidebarLabel>Startseite</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/events" current={pathname.startsWith('/events')}>
                 <Square2StackIcon />
-                <SidebarLabel>Events</SidebarLabel>
+                <SidebarLabel>Veranstaltungen</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/orders" current={pathname.startsWith('/orders')}>
                 <TicketIcon />
-                <SidebarLabel>Orders</SidebarLabel>
+                <SidebarLabel>Bestellungen</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
                 <Cog6ToothIcon />
-                <SidebarLabel>Settings</SidebarLabel>
+                <SidebarLabel>Einstellungen</SidebarLabel>
               </SidebarItem>
             </SidebarSection>
 
             <SidebarSection className="max-lg:hidden">
-              <SidebarHeading>Upcoming Events</SidebarHeading>
+              <SidebarHeading>Kommende Veranstaltungen</SidebarHeading>
               {events.map((event) => (
                 <SidebarItem key={event.id} href={event.url}>
                   {event.name}
@@ -158,11 +158,11 @@ export function ApplicationLayout({
             <SidebarSection>
               <SidebarItem href="#">
                 <QuestionMarkCircleIcon />
-                <SidebarLabel>Support</SidebarLabel>
+                <SidebarLabel>Unterstützung</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="#">
                 <SparklesIcon />
-                <SidebarLabel>Changelog</SidebarLabel>
+                <SidebarLabel>Änderungsprotokoll</SidebarLabel>
               </SidebarItem>
             </SidebarSection>
           </SidebarBody>
