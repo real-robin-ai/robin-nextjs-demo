@@ -15,8 +15,8 @@ importers:
         specifier: ^2.1.3
         version: 2.1.5(react@18.3.1)
       '@real-robin/react':
-        specifier: ^0.10.9
-        version: 0.10.9(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.10.12
+        version: 0.10.12(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -261,8 +261,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
 
-  '@real-robin/react@0.10.9':
-    resolution: {integrity: sha512-CtUt58M6fAL/J7ujArpbb4YX/ZsdVQQjEqhKon/TzLYKhoE7Y6yE5IRldj+WeTc3ImKrqQjTlBT3c3gh8SeIBw==}
+  '@real-robin/react@0.10.12':
+    resolution: {integrity: sha512-U53xETlr5JY6QSDcOtXKrkYxghkv3xj3CxQEDHt9xX4jIgsqpdk3/FZwOFtxeYLCxyaruN5RdI1d+gANK/FwAw==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -2048,7 +2048,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  '@real-robin/react@0.10.9(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@real-robin/react@0.10.12(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tanstack/react-query': 5.80.7(react@18.3.1)
       ky: 1.8.1
