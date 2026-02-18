@@ -13,10 +13,10 @@ export async function getOrders() {
       url: '/orders/3000',
       date: 'May 9, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_2HLf8DfYJ0Db7asfCC5T546TY',
@@ -40,10 +40,10 @@ export async function getOrders() {
       url: '/orders/3001',
       date: 'May 5, 2024',
       amount: {
-        usd: '$299.00',
-        cad: '$409.13',
-        fee: '$12.27',
-        net: '$396.86',
+        usd: '$299.0',
+        cad: '$409.1',
+        fee: '$12.3',
+        net: '$396.9',
       },
       payment: {
         transactionId: 'ch_1KLf7AsYJ0Dda7fs3CC5d46TY',
@@ -67,10 +67,10 @@ export async function getOrders() {
       url: '/orders/3002',
       date: 'Apr 28, 2024',
       amount: {
-        usd: '$150.00',
-        cad: '$205.25',
-        fee: '$6.15',
-        net: '$199.10',
+        usd: '$150.0',
+        cad: '$205.3',
+        fee: '$6.2',
+        net: '$199.1',
       },
       payment: {
         transactionId: 'ch_2DLf5AsYJ0Ddb7fs3CC5d46TY',
@@ -94,10 +94,10 @@ export async function getOrders() {
       url: '/orders/3003',
       date: 'Apr 23, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_3KLf6DfYJ0Db7fassCC546TY',
@@ -121,10 +121,10 @@ export async function getOrders() {
       url: '/orders/3004',
       date: 'Apr 18, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_4HLf7DfYJ0Db78fas3C5d6TY',
@@ -148,10 +148,10 @@ export async function getOrders() {
       url: '/orders/3005',
       date: 'Apr 14, 2024',
       amount: {
-        usd: '$299.00',
-        cad: '$409.13',
-        fee: '$12.27',
-        net: '$396.86',
+        usd: '$299.0',
+        cad: '$409.1',
+        fee: '$12.3',
+        net: '$396.9',
       },
       payment: {
         transactionId: 'ch_5HLf8DfYJ0Ddb78fas3CC5TY',
@@ -175,10 +175,10 @@ export async function getOrders() {
       url: '/orders/3006',
       date: 'Apr 10, 2024',
       amount: {
-        usd: '$150.00',
-        cad: '$205.25',
-        fee: '$6.15',
-        net: '$199.10',
+        usd: '$150.0',
+        cad: '$205.3',
+        fee: '$6.2',
+        net: '$199.1',
       },
       payment: {
         transactionId: 'ch_6KLf9DfYJ0Db7asf3CC54dTY',
@@ -202,10 +202,10 @@ export async function getOrders() {
       url: '/orders/3007',
       date: 'Apr 6, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_7KLf6DfYJ0Ddb78fs3C5d6TY',
@@ -229,10 +229,10 @@ export async function getOrders() {
       url: '/orders/3008',
       date: 'Apr 3, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_8HLf5AsYJ0Db78fassCC5d6TY',
@@ -256,10 +256,10 @@ export async function getOrders() {
       url: '/orders/3009',
       date: 'Mar 29, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_9KLf7DfYJ0Ddb78fas3C5dTY',
@@ -283,10 +283,10 @@ export async function getOrders() {
       url: '/orders/3010',
       date: 'Mar 25, 2024',
       amount: {
-        usd: '$299.00',
-        cad: '$409.13',
-        fee: '$12.27',
-        net: '$396.86',
+        usd: '$299.0',
+        cad: '$409.1',
+        fee: '$12.3',
+        net: '$396.9',
       },
       payment: {
         transactionId: 'ch_1KLf8DfYJ0Db78fas3CC54TY',
@@ -310,10 +310,10 @@ export async function getOrders() {
       url: '/orders/3011',
       date: 'Mar 21, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_2KLf9DfYJ0Db78fas3CC546Y',
@@ -337,10 +337,10 @@ export async function getOrders() {
       url: '/orders/3012',
       date: 'Mar 16, 2024',
       amount: {
-        usd: '$150.00',
-        cad: '$205.25',
-        fee: '$6.15',
-        net: '$199.10',
+        usd: '$150.0',
+        cad: '$205.3',
+        fee: '$6.2',
+        net: '$199.1',
       },
       payment: {
         transactionId: 'ch_3HLf6DfYJ0Db7afs3CC54dTY',
@@ -364,10 +364,10 @@ export async function getOrders() {
       url: '/orders/3013',
       date: 'Mar 12, 2024',
       amount: {
-        usd: '$299.00',
-        cad: '$409.13',
-        fee: '$12.27',
-        net: '$396.86',
+        usd: '$299.0',
+        cad: '$409.1',
+        fee: '$12.3',
+        net: '$396.9',
       },
       payment: {
         transactionId: 'ch_4DLf7DfYJ0Db78fs3CC5d46Y',
@@ -391,10 +391,10 @@ export async function getOrders() {
       url: '/orders/3014',
       date: 'Mar 8, 2024',
       amount: {
-        usd: '$150.00',
-        cad: '$205.25',
-        fee: '$6.15',
-        net: '$199.10',
+        usd: '$150.0',
+        cad: '$205.3',
+        fee: '$6.2',
+        net: '$199.1',
       },
       payment: {
         transactionId: 'ch_5KLf8DfYJ0Db78fssCC54TY',
@@ -418,10 +418,10 @@ export async function getOrders() {
       url: '/orders/3015',
       date: 'Mar 4, 2024',
       amount: {
-        usd: '$150.00',
-        cad: '$205.25',
-        fee: '$6.15',
-        net: '$199.10',
+        usd: '$150.0',
+        cad: '$205.3',
+        fee: '$6.2',
+        net: '$199.1',
       },
       payment: {
         transactionId: 'ch_6HLf9DfYJ0Db78fas3CC546TY',
@@ -445,10 +445,10 @@ export async function getOrders() {
       url: '/orders/3016',
       date: 'Feb 28, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_7HLf6DfYJ0Db78fas3CC546Y',
@@ -472,10 +472,10 @@ export async function getOrders() {
       url: '/orders/3017',
       date: 'Feb 23, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_8KLf5DfYJ0Db78fas3CC546TY',
@@ -499,10 +499,10 @@ export async function getOrders() {
       url: '/orders/3018',
       date: 'Feb 19, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_9HLf8DfYJ0Db78fas3CC5dTY',
@@ -526,10 +526,10 @@ export async function getOrders() {
       url: '/orders/3019',
       date: 'Feb 15, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_1HLf9DfYJ0Db78fas3CC54TY',
@@ -553,10 +553,10 @@ export async function getOrders() {
       url: '/orders/3020',
       date: 'Feb 10, 2024',
       amount: {
-        usd: '$299.00',
-        cad: '$409.13',
-        fee: '$12.27',
-        net: '$396.86',
+        usd: '$299.0',
+        cad: '$409.1',
+        fee: '$12.3',
+        net: '$396.9',
       },
       payment: {
         transactionId: 'ch_2DLf6DfYJ0Db78fas3CC546TY',
@@ -580,10 +580,10 @@ export async function getOrders() {
       url: '/orders/3021',
       date: 'Feb 5, 2024',
       amount: {
-        usd: '$80.00',
-        cad: '$109.47',
-        fee: '$3.28',
-        net: '$106.19',
+        usd: '$80.0',
+        cad: '$109.5',
+        fee: '$3.3',
+        net: '$106.2',
       },
       payment: {
         transactionId: 'ch_3KLf5DfYJ0Db78fassCC546TY',
@@ -607,10 +607,10 @@ export async function getOrders() {
       url: '/orders/3022',
       date: 'Feb 1, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_4HLf8DfYJ0Db78fas3CC546Y',
@@ -634,10 +634,10 @@ export async function getOrders() {
       url: '/orders/3023',
       date: 'Jan 27, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_5KLf9DfYJ0Db78fs3CC546TY',
@@ -661,10 +661,10 @@ export async function getOrders() {
       url: '/orders/3024',
       date: 'Jan 22, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_6HLf6DfYJ0Db78fas3CC5dTY',
@@ -688,10 +688,10 @@ export async function getOrders() {
       url: '/orders/3025',
       date: 'Jan 18, 2024',
       amount: {
-        usd: '$114.99',
-        cad: '$157.34',
-        fee: '$4.72',
-        net: '$152.62',
+        usd: '$115.0',
+        cad: '$157.3',
+        fee: '$4.7',
+        net: '$152.6',
       },
       payment: {
         transactionId: 'ch_7HLf7DfYJ0Db78fas3CC546TY',
