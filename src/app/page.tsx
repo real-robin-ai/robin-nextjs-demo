@@ -51,7 +51,9 @@ export default async function Home() {
                   <span>{order.event.name}</span>
                 </div>
               </TableCell>
-              <TableCell className="text-right">US{order.amount.usd}</TableCell>
+              <TableCell className="text-right">
+                US${parseFloat(order.amount.usd.replace('$', '')).toFixed(1)}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
