@@ -10,33 +10,33 @@ export default async function Home() {
 
   return (
     <>
-      <Heading>Good afternoon, Erica</Heading>
+      <Heading>Guten Tag, Erica</Heading>
       <div className="mt-8 flex items-end justify-between">
-        <Subheading>Overview</Subheading>
+        <Subheading>Übersicht</Subheading>
         <div>
           <Select name="period">
-            <option value="last_week">Last week</option>
-            <option value="last_two">Last two weeks</option>
-            <option value="last_month">Last month</option>
-            <option value="last_quarter">Last quarter</option>
+            <option value="last_week">Letzte Woche</option>
+            <option value="last_two">Letzte zwei Wochen</option>
+            <option value="last_month">Letzter Monat</option>
+            <option value="last_quarter">Letztes Quartal</option>
           </Select>
         </div>
       </div>
       <div className="mt-4 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
-        <Stat title="Total revenue" value="$2.6M" change="+4.5%" />
-        <Stat title="Average order value" value="$455" change="-0.5%" />
-        <Stat title="Tickets sold" value="5,888" change="+4.5%" />
-        <Stat title="Pageviews" value="823,067" change="+21.2%" />
+        <Stat title="Gesamtumsatz" value="$2.6M" change="+4.5%" />
+        <Stat title="Durchschnittlicher Bestellwert" value="$455" change="-0.5%" />
+        <Stat title="Verkaufte Tickets" value="5,888" change="+4.5%" />
+        <Stat title="Seitenaufrufe" value="823,067" change="+21.2%" />
       </div>
-      <Subheading className="mt-14">Recent orders</Subheading>
+      <Subheading className="mt-14">Letzte Bestellungen</Subheading>
       <Table className="mt-4 [--gutter:--spacing(6)] lg:[--gutter:--spacing(10)]">
         <TableHead>
           <TableRow>
-            <TableHeader>Order number</TableHeader>
-            <TableHeader>Purchase date</TableHeader>
-            <TableHeader>Customer</TableHeader>
-            <TableHeader>Event</TableHeader>
-            <TableHeader className="text-right">Amount</TableHeader>
+            <TableHeader>Bestellnummer</TableHeader>
+            <TableHeader>Kaufdatum</TableHeader>
+            <TableHeader>Kunde</TableHeader>
+            <TableHeader>Veranstaltung</TableHeader>
+            <TableHeader className="text-right">Betrag</TableHeader>
           </TableRow>
         </TableHead>
         <TableBody>
