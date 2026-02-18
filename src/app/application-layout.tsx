@@ -23,6 +23,7 @@ import {
 } from '@/components/sidebar'
 import { SidebarLayout } from '@/components/sidebar-layout'
 import { getEvents } from '@/data'
+import { es } from '@/translations/es'
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronDownIcon,
@@ -48,21 +49,21 @@ function AccountDropdownMenu({ anchor }: { anchor: 'top start' | 'bottom end' })
     <DropdownMenu className="min-w-64" anchor={anchor}>
       <DropdownItem href="#">
         <UserCircleIcon />
-        <DropdownLabel>My account</DropdownLabel>
+        <DropdownLabel>{es.dropdown.myAccount}</DropdownLabel>
       </DropdownItem>
       <DropdownDivider />
       <DropdownItem href="#">
         <ShieldCheckIcon />
-        <DropdownLabel>Privacy policy</DropdownLabel>
+        <DropdownLabel>{es.dropdown.privacyPolicy}</DropdownLabel>
       </DropdownItem>
       <DropdownItem href="#">
         <LightBulbIcon />
-        <DropdownLabel>Share feedback</DropdownLabel>
+        <DropdownLabel>{es.dropdown.shareFeedback}</DropdownLabel>
       </DropdownItem>
       <DropdownDivider />
       <DropdownItem href="#">
         <ArrowRightStartOnRectangleIcon />
-        <DropdownLabel>Sign out</DropdownLabel>
+        <DropdownLabel>{es.dropdown.signOut}</DropdownLabel>
       </DropdownItem>
     </DropdownMenu>
   )
@@ -98,27 +99,27 @@ export function ApplicationLayout({
             <Dropdown>
               <DropdownButton as={SidebarItem}>
                 <Avatar src="/teams/catalyst.svg" />
-                <SidebarLabel>Catalyst</SidebarLabel>
+                <SidebarLabel>{es.dropdown.catalyst}</SidebarLabel>
                 <ChevronDownIcon />
               </DropdownButton>
               <DropdownMenu className="min-w-80 lg:min-w-64" anchor="bottom start">
                 <DropdownItem href="/settings">
                   <Cog8ToothIcon />
-                  <DropdownLabel>Settings</DropdownLabel>
+                  <DropdownLabel>{es.dropdown.settings}</DropdownLabel>
                 </DropdownItem>
                 <DropdownDivider />
                 <DropdownItem href="#">
                   <Avatar slot="icon" src="/teams/catalyst.svg" />
-                  <DropdownLabel>Catalyst</DropdownLabel>
+                  <DropdownLabel>{es.dropdown.catalyst}</DropdownLabel>
                 </DropdownItem>
                 <DropdownItem href="#">
                   <Avatar slot="icon" initials="BE" className="bg-purple-500 text-white" />
-                  <DropdownLabel>Big Events</DropdownLabel>
+                  <DropdownLabel>{es.dropdown.bigEvents}</DropdownLabel>
                 </DropdownItem>
                 <DropdownDivider />
                 <DropdownItem href="#">
                   <PlusIcon />
-                  <DropdownLabel>New team&hellip;</DropdownLabel>
+                  <DropdownLabel>{es.dropdown.newTeam}</DropdownLabel>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
@@ -128,24 +129,24 @@ export function ApplicationLayout({
             <SidebarSection>
               <SidebarItem href="/" current={pathname === '/'}>
                 <HomeIcon />
-                <SidebarLabel>Home</SidebarLabel>
+                <SidebarLabel>{es.sidebar.home}</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/events" current={pathname.startsWith('/events')}>
                 <Square2StackIcon />
-                <SidebarLabel>Events</SidebarLabel>
+                <SidebarLabel>{es.sidebar.events}</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/orders" current={pathname.startsWith('/orders')}>
                 <TicketIcon />
-                <SidebarLabel>Orders</SidebarLabel>
+                <SidebarLabel>{es.sidebar.orders}</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
                 <Cog6ToothIcon />
-                <SidebarLabel>Settings</SidebarLabel>
+                <SidebarLabel>{es.sidebar.settings}</SidebarLabel>
               </SidebarItem>
             </SidebarSection>
 
             <SidebarSection className="max-lg:hidden">
-              <SidebarHeading>Upcoming Events</SidebarHeading>
+              <SidebarHeading>{es.sidebar.upcomingEvents}</SidebarHeading>
               {events.map((event) => (
                 <SidebarItem key={event.id} href={event.url}>
                   {event.name}
@@ -158,11 +159,11 @@ export function ApplicationLayout({
             <SidebarSection>
               <SidebarItem href="#">
                 <QuestionMarkCircleIcon />
-                <SidebarLabel>Support</SidebarLabel>
+                <SidebarLabel>{es.sidebar.support}</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="#">
                 <SparklesIcon />
-                <SidebarLabel>Changelog</SidebarLabel>
+                <SidebarLabel>{es.sidebar.changelog}</SidebarLabel>
               </SidebarItem>
             </SidebarSection>
           </SidebarBody>
