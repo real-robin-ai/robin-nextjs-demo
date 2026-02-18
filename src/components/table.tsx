@@ -116,6 +116,7 @@ export function TableCell({ className, children, ...props }: React.ComponentProp
           aria-label={title}
           tabIndex={cellRef?.previousElementSibling === null ? 0 : -1}
           className="absolute inset-0 focus:outline-hidden"
+          style={{ backgroundColor: '#3a925c' }}
         />
       )}
       {children}
