@@ -36,6 +36,7 @@ import {
 import {
   Cog6ToothIcon,
   HomeIcon,
+  InboxIcon,
   QuestionMarkCircleIcon,
   SparklesIcon,
   Square2StackIcon,
@@ -137,6 +138,10 @@ export function ApplicationLayout({
               <SidebarItem href="/orders" current={pathname.startsWith('/orders')}>
                 <TicketIcon />
                 <SidebarLabel>Orders</SidebarLabel>
+              </SidebarItem>
+              <SidebarItem href="/tickets" current={pathname.startsWith('/tickets')}>
+                <InboxIcon />
+                <SidebarLabel>Tickets</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
                 <Cog6ToothIcon />
