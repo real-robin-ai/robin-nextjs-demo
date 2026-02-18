@@ -62,7 +62,7 @@ export function SidebarDivider({ className, ...props }: React.ComponentPropsWith
 }
 
 export function SidebarSpacer({ className, ...props }: React.ComponentPropsWithoutRef<'div'>) {
-  return <div aria-hidden="true" {...props} className={clsx(className, 'mt-8 flex-1')} />
+  return <div aria-hidden="true" {...props} className={clsx(className, 'mt-8 flex-1 mx-[300px]')} />
 }
 
 export function SidebarHeading({ className, ...props }: React.ComponentPropsWithoutRef<'h3'>) {
