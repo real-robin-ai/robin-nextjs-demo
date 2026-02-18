@@ -19,6 +19,7 @@ export default async function Home() {
             <option value="last_two">Last two weeks</option>
             <option value="last_month">Last month</option>
             <option value="last_quarter">Last quarter</option>
+            <option value="last_year">Last year</option>
           </Select>
         </div>
       </div>
